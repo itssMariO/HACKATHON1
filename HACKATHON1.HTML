@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title> ADMIN SCREEN 1</title>
+    </head>
+    <style>
+        button{
+            background:red;
+            border:none;
+            color:white;
+            padding:15px 32px;
+            text-align:center;
+            text-decoration:none;
+            display:inline-block;
+            font-size:16px;
+            margin:4px,2px;
+            cursor:pointer;
+        }
+    </style>
+    
+    }
+    <body bgcolor="grey">
+        <h1 style="text-align: center;color:red">ADMIN 1</h1>
+    </body>
+    <input type="button" value="open market"/>
+    <input type="button" value="close market"/>
+    <form>
+        <label>Select stocks</label>
+        <select>
+            <option value="DBS">DBS</option>
+            <option value="ICICI">ICICI</option>
+            <option value="SBI">SBI</option>
+            <option value="canara">canara</option>
+            <option value="Andra">Andra</option>
+            <style>
+                .button {
+                    background:red;
+                    border:none;
+                    color:white;
+                    padding:15px 32px;
+                    text-align:center;
+                    text-decoration:none;
+                    display:inline-block;
+                    font-size:16px;
+                    margin:4px,2px;
+                    cursor:pointer;
+                }
+            </style>
+
+        </select>
+        <input type="date">
+        <button type="submit" name="btn">From Date</button>
+        <input type="date">
+        <button type="submit" name="btn">To Date</button>
+    
+        
+    </form>
+    <input type="button"value="Show Orders"/>
+    <table style="background-color: beige;"
+    border="10"
+    width="60%"
+    cellpadding="8`">
+    
+        <tr>
+            <td>1</td>
+            <td>DBS</td>
+            <td>50</td>
+            <td>Limit</td>
+            <td>0</td>
+            <td>150</td>
+            <td>PLACED</td>
+            <td>21 FEB 2021</td>
+            
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>DBS</td>
+            <td>50</td>
+            <td>Market</td>
+            <td>0</td>
+            <td></td>
+            <td>PLACED</td>
+            <td>21 FEB 2021</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DBS</td>
+            <td>50</td>
+            <td>Limit</td>
+            <td>0</td>
+            <td>140</td>
+            <td>PLACED</td>
+            <td>21 FEB 2021</td>
+
+        </tr>
+        
+        <tr align="center"></tr>
+
+
+        
+    
+    </table>
+    <table style="background-color: beige;"
+    border="6">
+        <tr><th>Execution Quantity</th></tr>
+        <tr><th>Execution Price</th></tr>
+        <tr><th></th></tr>
+    </table>
+    <input type="button" value="Execute orders"/>
+</html>
